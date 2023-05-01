@@ -8,7 +8,7 @@
   height: 92vh;
   max-height: 610px;
   align-items: start;
-  justify-content: flex-start;
+  justify-content: start;
   width: 60%;
   overflow-y: scroll;
   margin: auto;
