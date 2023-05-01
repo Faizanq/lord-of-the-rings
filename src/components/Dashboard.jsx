@@ -5,6 +5,7 @@ import useLOTRData from "../hooks/useLOTRData"
 import Characters from "./Characters"
 import Movies from "./Movies"
 import Books from "./Books"
+import Quotes from "./Quotes"
 import Loader from "./Loader"
 
 export default function Dashboard() {
@@ -20,7 +21,8 @@ export default function Dashboard() {
   const dataRender = {
     character : <Characters data={data} />,
     book:<Books data={data} />,
-    movie:<Movies data={data} />
+    movie:<Movies data={data} />,
+    quote:<Quotes data={data} />
   }
   return (
     <div className={styles.dashboard}>

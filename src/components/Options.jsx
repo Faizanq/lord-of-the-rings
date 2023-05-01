@@ -5,7 +5,8 @@ export default function Options(props) {
   const questions = [
     'character',
     'movie',
-    'book'
+    'book',
+    'quote'
   ]
   return (
     

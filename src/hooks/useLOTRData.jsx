@@ -23,6 +23,8 @@ export default function useLOTRData(selection) {
 
     async function fetchData() {
       try {
+        console.log(selection, "selection")
+        // if (selection === 'quote') selection += '/5cd96e05de30eff6ebcce7eb'
         const url = `${apiUrl}/${selection}`
         const res = await fetch(url, options)
 
